@@ -16,3 +16,6 @@ test:
   assemblies:
     only:
       - '**\*.Tests.dll'
+artifacts:
+  - path: '**\*.nupkg'
+    name: GoatLib
